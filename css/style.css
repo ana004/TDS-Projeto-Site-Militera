@@ -8,7 +8,7 @@
   --------------------------------------------------------------*/
   #hero {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background: url("../imagens/denuncie.jpg") top center;
     background-size: cover;
     position: relative;
