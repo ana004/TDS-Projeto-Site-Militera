@@ -19,19 +19,31 @@
             <div class="right">
                 <h2>CONTATO</h2>
                 <p>Envie aqui suas dúvidas, comentários e críticas</p>
-                <form action="https://formspree.io/f/xoqbjdeg" method="POST">
+                <form id="contato-form" action="https://formspree.io/f/xoqbjdeg" method="POST">
 
-                    <input type="name" name="name" class="field" placeholder="Nome">
+                    <input type="name" name="name" class="field required" placeholder="Nome" oninput="validarNome()">
+                    <div class="flexbox-container">
+                        <span class="span-required">O campo nome deve ter no mínimo 3 caracteres</span>
+                    </div>
 
-                    <input type="email" name="email" class="field" placeholder="E-mail">
-
-                    <textarea type="text" name="message" placeholder="Mensagem" class="field"></textarea>
+                    <input type="email" name="email" class="field required" placeholder="E-mail"
+                        oninput="validarEmail()">
+                    <div class="flexbox-container">
+                        <span class="span-required">Digite um e-mail válido</span>
+                    </div>
+                    <textarea type="text" name="message" placeholder="Mensagem" class="field required"
+                        oninput="validarMensagem()"></textarea>
+                    <div class="flexbox-container">
+                        <span class="span-required">O campo mensagem deve ter no mínimo 3 caracteres</span>
+                    </div>
                     <button type="submit" class="btn">Send</button>
+
                 </form>
             </div>
         </div>
     </div>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
