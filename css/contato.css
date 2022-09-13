@@ -27,7 +27,8 @@ body{
 
 
 .right{
-    padding: 50px 40px;
+    margin-top: 150px;
+    padding: 90px 40px 90px 40px;
 }
 
 h2{
@@ -45,7 +46,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #41333b;
 }
 
 .field{
@@ -69,9 +70,10 @@ textarea{
 
 .btn{
     width: 100%;
+    margin-top: 0.9rem;
     padding: 0.5rem 1rem;
-    background-color: #2ecc71;
-    color: #fff;
+    background-color: #41333b;
+    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     border: none;
     outline: none;
@@ -80,7 +82,7 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #41333b;
 }
 
 .field:focus{
@@ -104,3 +106,4 @@ textarea{
 .flexbox-container {
     text-align: left;
 }
+
