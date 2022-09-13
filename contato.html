@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
@@ -11,19 +12,26 @@
     <link rel="stylesheet" href="css/contato.css">
     <title>Contato</title>
 </head>
+
 <body>
-<div class="container">
-    <div class="contact-box">
-        <div class="right">
-            <h2>CONTATO</h2>
-            <p>Envie aqui suas dúvidas, comentários e críticas</p>
-            <input type="text" class="field" placeholder="Your Name">
-            <input type="text" class="field" placeholder="Your Email">
-            <textarea placeholder="Message" class="field"></textarea>
-            <button class="btn">Send</button>
+    <div class="container">
+        <div class="contact-box">
+            <div class="right">
+                <h2>CONTATO</h2>
+                <p>Envie aqui suas dúvidas, comentários e críticas</p>
+                <form action="https://formspree.io/f/xoqbjdeg" method="POST">
+
+                    <input type="name" name="name" class="field" placeholder="Nome">
+
+                    <input type="email" name="email" class="field" placeholder="E-mail">
+
+                    <textarea type="text" name="message" placeholder="Mensagem" class="field"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
 </body>
+
 </html>
