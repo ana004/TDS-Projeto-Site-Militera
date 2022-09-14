@@ -97,4 +97,6 @@
   }
 
  
-  
+.img-hover:hover {
+  transform: scale(1.05); 
+}
