@@ -21,69 +21,67 @@
   </head>
 
   <body class="text-center">
-      <header>
-      <nav class="navbar navbar-light bg-light fixed-top ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/img/heart.jpg" alt="Logo MiLitera" width="30" height="24" class="d-inline-block align-text-top">
+    <header>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid py-3" style="background-color:#41333b;">
+          <a class="navbar-brand" href="home.html" style="color: #ffffff;">
+            <img src="/img/heart.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Militera
           </a>
-
           <div class=" navbar-nav d-none d-md-block ms-auto"> <!-- Até o fechamento da div todos os elementos só vão aparecer quando a tela for maior que md-->
             <ul class="nav">
-              <li class="nav-item ">
-                <a class="nav-link mx-5 " href="definicao.html">Definição</a>
+              <li class="nav-item">
+                <a class="nav-link mx-5 " href="definicao.html"  style="color: #ffffff;">Definição</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#">Ditadura</a>
+                <a class="nav-link mx-5" href="#"  style="color: #ffffff;">Ditadura</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#">Impacto</a>
+                <a class="nav-link mx-5" href="#"  style="color: #ffffff;">Impacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
+                <a class="nav-link mx-5" href="#"><img src="imagens/baixar-pdf.png" alt="pdf download"></a>
               </li>
               </ul>
             </div>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Militera</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Militera</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
       
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="definicao.html">Definição</a> <!-- Elementos com "d-md-none vão sumir quando a tela for menor e/ou igual a  md"-->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="#">Ditadura</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="#">Impacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Influência</a><head>
+                  </li>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-md-none" href="definicao.html">Definição</a> <!-- Elementos com "d-md-none vão sumir quando a tela for menor e/ou igual a  md"-->
+                  <a class="nav-link" href="#">Referências</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-md-none" href="#">Ditadura</a>
+                  <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link d-md-none" href="#">Impacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Influência</a><head>
-                </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Referências</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
-              </li>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
     <main>
       <div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 text-center mb-5" style="background-color:#41333b;" >
