@@ -86,7 +86,7 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid #677584;
     background-color: #fff;
 }
 

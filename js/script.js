@@ -17,7 +17,7 @@ form.addEventListener('submit', (event) => {
 })
 
 function setError(index) {
-    campos[index].style.border = '2px solid #e63636';
+    campos[index].style.border = '1px solid #e63636';
     spans[index].style.display = 'inline-block';
 }
 
