@@ -49,7 +49,7 @@ function validarEmail() {
 }
 
 function validarMensagem() {
-    if(campos[2].value.length < 3)
+    if(campos[2].value.length < 30)
     {
         isError = true;
         setError(2);
