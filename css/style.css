@@ -106,3 +106,10 @@
   border: 0;
   height: 3px;
 }
+
+/*-------------------------------*/
+
+.justify {
+  display: flex;
+  text-align: justify;
+}
