@@ -114,3 +114,13 @@
   text-align: justify;
   font-size: 1.4em;
 }
+
+#p-faqs {
+  display: flex;
+  text-align: justify;
+  font-size: 1.3em;
+}
+
+#pergunta-faqs {
+  font-size: 1.4em;
+}
