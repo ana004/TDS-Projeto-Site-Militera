@@ -112,15 +112,27 @@
 .justify {
   display: flex;
   text-align: justify;
-  font-size: 1.4em;
+  font-size: 20px;
 }
 
 #p-faqs {
   display: flex;
   text-align: justify;
-  font-size: 1.3em;
+  font-size: 19px
 }
 
 #pergunta-faqs {
-  font-size: 1.4em;
+  font-size: 23px;
+}
+
+#info-responde {
+  font-size: 18px;
+}
+
+#desc-categoria {
+  font-size: 17px;
+}
+
+#nome-categoria {
+  font-size: 30px;
 }
