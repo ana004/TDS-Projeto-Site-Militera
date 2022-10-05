@@ -112,4 +112,5 @@
 .justify {
   display: flex;
   text-align: justify;
+  font-size: 1.4em;
 }
