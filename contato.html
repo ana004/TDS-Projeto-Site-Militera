@@ -88,21 +88,26 @@
                 </p>
                 <form id="contato-form" action="https://formspree.io/f/xoqbjdeg" method="POST">
 
-                    <input type="name" name="name" class="field required" placeholder="Nome" oninput="validarNome()">
+                  <p><label for="name">Nome</label></p>
+                    <input type="name" name="name" class="field required" placeholder="Maria da Silva" oninput="validarNome()">
                     <div class="flexbox-container">
                         <span class="span-required">O campo nome deve ter no mínimo 3 caracteres</span>
                     </div>
 
-                    <input type="email" name="email" class="field required" placeholder="E-mail"
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" class="field required" placeholder="mariadasilva@email.com"
                         oninput="validarEmail()">
                     <div class="flexbox-container">
                         <span class="span-required">Digite um e-mail válido, exemplo: nome@email.com</span>
                     </div>
-                    <textarea type="text" name="message" placeholder="Mensagem" class="field required"
+
+                    <label for="message">Mensagem</label>
+                    <textarea type="text" name="message" class="field required" placeholder="Eu gostaria de perguntar sobre..." 
                         oninput="validarMensagem()"></textarea>
                     <div class="flexbox-container">
                         <span class="span-required">O campo mensagem deve ter no mínimo 30 caracteres</span>
                     </div>
+
                     <button type="submit" class="btn">Enviar</button>
 
                 </form>

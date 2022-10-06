@@ -19,11 +19,15 @@ form.addEventListener('submit', (event) => {
 function setError(index) {
     campos[index].style.border = '1px solid #e63636';
     spans[index].style.display = 'inline-block';
+    spans[index].style.marginBottom = "5px";
+    fields[index].style.marginBottom = "0";
 }
 
 function removeError(index) {
     campos[index].style.border = '';
     spans[index].style.display = 'none';
+    spans[index].style.marginBottom = "20px";
+    fields[index].style.marginBottom = "20px";
 }
 
 function validarNome() {
