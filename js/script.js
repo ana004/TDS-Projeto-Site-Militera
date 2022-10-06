@@ -1,9 +1,12 @@
 const form = document.getElementById('contato-form');
 const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.span-required');
-const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+const emailRegex = /^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$/; // validação recomendada pela RFC 5322 como está descrito no site https://www.baeldung.com/java-email-validation-regex
 const fields = document.querySelectorAll('.field');
+const button = document.querySelector('.btn');
 let isError = true;
+
+function brownAndWhite(){ button.style.backgroundColor = "#41333b";  button.style.color = '#fff'};
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();

@@ -10,6 +10,10 @@ body{
     width: 100%;
 }
 
+button {
+    background-color: #41333b;
+}
+
 .container{
     justify-content: center;
     align-items: center;
@@ -70,8 +74,6 @@ label{
     min-height: 150px;
    
 } 
-
-
 
 .btn{
     margin-top: 0.9rem;
