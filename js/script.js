@@ -1,3 +1,4 @@
+if (document.body.classList.contains('contato')) {
 const form = document.getElementById('contato-form');
 const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.span-required');
@@ -66,3 +67,22 @@ function validarMensagem() {
     }
 }
 
+}
+if (document.body.classList.contains('indicacoes')) {
+const productContainers = [...document.querySelectorAll('.product-container')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+}
