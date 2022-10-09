@@ -69,7 +69,7 @@ function validarMensagem() {
 
 }
 if (document.body.classList.contains('indicacoes')) {
-const productContainers = [...document.querySelectorAll('.product-container')];
+const productContainers = [...document.querySelectorAll('.books-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
 
