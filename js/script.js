@@ -85,4 +85,15 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+let booksJson = '{"books":['+
+    '{ "nome": "livro1", "autor": "autor1", "ano": 2004},'+
+    '{ "nome": "livro2", "autor": "autor2", "ano": 2005}'+
+']}'
+
+/* parse - converte json para js */
+let c_obj = JSON.parse(booksJson)
+
+console.log(c_obj);
 }
+
