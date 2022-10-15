@@ -136,3 +136,9 @@
 #nome-categoria {
   font-size: 30px;
 }
+
+.none, .none:hover{
+ color: inherit;
+ text-decoration: none;
+}
+
