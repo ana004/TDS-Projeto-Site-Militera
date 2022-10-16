@@ -1,0 +1,32 @@
+.line{
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color:transparent ;
+    }
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 14.5em;
+    }
+}
