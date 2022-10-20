@@ -97,6 +97,7 @@ if (document.body.classList.contains('mostrar-livro')) {
         document.getElementById('titulo').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Nome; 
         document.getElementById('autor').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Autor; 
         document.getElementById('ano').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Ano; 
+        document.getElementById('descricao').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Descricao; 
         localStorage.removeItem("numeroDoLivro");
     }
 }
@@ -109,37 +110,43 @@ if (document.body.classList.contains('mostrar-livro')) {
             {   
                 "Nome": "Livro 0",
                 "Autor": "Autor 1", // Posição 0
-                "Ano": 2004
+                "Ano": 2004,
+                "Descricao": "0Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101"
             },
 
             {
                 "Nome": "Livro 1",
                 "Autor": "Autor 1", 
-                "Ano": 2005
+                "Ano": 2005,
+                "Descricao": "1Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101"
             },
 
             {
                 "Nome": "Livro 2",
                 "Autor": "Autor 2",
-                "Ano": 2006
+                "Ano": 2006,
+                "Descricao": "2Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010102"
             },
 
             {
                 "Nome": "Livro 3",
                 "Autor": "Autor 3",
-                "Ano": 2006
+                "Ano": 2006,
+                "Descricao": "bla bla bla"
             },
 
             {
                 "Nome": "Livro 4",
                 "Autor": "Autor 4",
-                "Ano": 2006
+                "Ano": 2006,
+                "Descricao": "bla bla bla"
             },
 
             {
                 "Nome": "Livro 5",
                 "Autor": "Autor 5", // Posição 5
-                "Ano": 2006
+                "Ano": 2006,
+                "Descricao": "bla bla bla"
             },
         ]
     }
