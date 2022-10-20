@@ -83,14 +83,26 @@ if (document.body.classList.contains('indicacoes')) {
             item.scrollLeft -= containerWidth;
         })
     })
+}
+
+numeroVai = null;
+
+function redirectTo(numero) {
+    window.location = 'mostrar-livro.html'
+    this.numeroVai = numero;
+    // replaceShowBooksPage(numero);
+    // console.log(livrosJson.Livros[numero]);
+}
 
 
-    function redirectTo(numero) {
-
-        window.location = 'mostrar-livro.html'
-        console.log(livrosJson.Livros[numero]);
-
+if (document.body.classList.contains('mostrar-livro')) {
+    window.onload = function () 
+     {
+        console.log(this.numeroVai);
+        document.getElementById('title').innerHTML = this.numeroVai;
+        console.log(5+4);
     }
+}
 
     let livrosJson =
     {
@@ -115,5 +127,5 @@ if (document.body.classList.contains('indicacoes')) {
             },
         ]
     }
-}
+
 

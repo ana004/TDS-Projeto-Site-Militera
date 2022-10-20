@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<body>
+<body class="mostrar-livro">
 
   <header>
     <nav class="navbar navbar-light bg-light fixed-top">
@@ -75,10 +75,12 @@
       </nav>
     </header>
 
+    
+
     <div class="container mt-5 pt-5">
     <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Título: <span class="text-muted"> titulo</span></h2> <!-- transformar para o objeto criado pelo JSON-->
+          <h2 class="featurette-heading">Título: <span id="title"></span></h2> <!-- transformar para o objeto criado pelo JSON-->
           <h2 class="featurette-heading">Autor: <span class="text-muted"> autor</span></h2>
           <h2 class="featurette-heading">Ano: <span class="text-muted"> 2004</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -88,5 +90,7 @@
         </div>
       </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
