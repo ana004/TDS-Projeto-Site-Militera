@@ -85,39 +85,43 @@ if (document.body.classList.contains('indicacoes')) {
     })
 }
 
-numeroVai = null;
-
 function redirectTo(numero) {
-    window.location = 'mostrar-livro.html'
-    this.numeroVai = numero;
-    // replaceShowBooksPage(numero);
-    // console.log(livrosJson.Livros[numero]);
+    localStorage.setItem("numeroDoLivro", numero);
+    window.location.href = 'mostrar-livro.html' // redirect
 }
-
 
 if (document.body.classList.contains('mostrar-livro')) {
     window.onload = function () 
      {
-        console.log(this.numeroVai);
-        document.getElementById('title').innerHTML = this.numeroVai;
-        console.log(5+4);
+        // Usar Hash?? https://stackoverflow.com/questions/21875390/redirect-page-and-call-javascript-function
+        document.getElementById('titulo').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Nome; 
+        document.getElementById('autor').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Autor; 
+        document.getElementById('ano').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Ano; 
+        localStorage.removeItem("numeroDoLivro");
     }
 }
 
+   // TODO - ADD PHOTO??
     let livrosJson =
     {
         "Livros": [
 
+            {   
+                "Nome": "Livro 0",
+                "Autor": "Autor 1", // Posição 0
+                "Ano": 2004
+            },
+
             {
                 "Nome": "Livro 1",
-                "Autor": "Autor 1",
-                "Ano": 2004
+                "Autor": "Autor 1", 
+                "Ano": 2005
             },
 
             {
                 "Nome": "Livro 2",
                 "Autor": "Autor 2",
-                "Ano": 2005
+                "Ano": 2006
             },
 
             {
@@ -125,7 +129,17 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Autor": "Autor 3",
                 "Ano": 2006
             },
+
+            {
+                "Nome": "Livro 4",
+                "Autor": "Autor 4",
+                "Ano": 2006
+            },
+
+            {
+                "Nome": "Livro 5",
+                "Autor": "Autor 5", // Posição 5
+                "Ano": 2006
+            },
         ]
     }
-
-
