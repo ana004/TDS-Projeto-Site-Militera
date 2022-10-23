@@ -1,6 +1,6 @@
 .line{
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75); /* Mudança de cor do texto da animação */
     font-size: 3em;
     margin: 0 auto;
     text-align: center;
@@ -11,7 +11,7 @@
 
 @keyframes blinkCursor {
     from {
-        border-right-color: rgba(255, 255, 255, 0.75);
+        border-right-color: rgba(18, 15, 15, 0.75); /* Mudança de cor do seletor da animação */
     }
     to {
         border-right-color:transparent ;
