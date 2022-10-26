@@ -3,6 +3,28 @@
     padding: 0;
 }
 
+.justify {
+  display: flex;
+  text-align: justify;
+}
+
+/*Responsividade das margens das páginas*/
+
+@media (min-width: 722px) and (max-width: 1500px) {
+  .container {
+    width: 70%;
+  }
+
+  .justify {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 721px) {
+  .justify {
+    font-size: 16px;
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -108,12 +130,6 @@
 }
 
 /*-------------------------------*/
-
-.justify {
-  display: flex;
-  text-align: justify;
-  font-size: 20px;
-}
 
 #p-faqs {
   display: flex;
