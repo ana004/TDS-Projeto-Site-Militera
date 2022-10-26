@@ -93,11 +93,13 @@ function redirectTo(numero) {
 if (document.body.classList.contains('mostrar-livro')) {
     window.onload = function () 
      {
+        var teste;
         // Usar Hash?? https://stackoverflow.com/questions/21875390/redirect-page-and-call-javascript-function
         document.getElementById('titulo').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Nome; 
         document.getElementById('autor').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Autor; 
         document.getElementById('ano').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Ano; 
-        document.getElementById('descricao').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Descricao; 
+        document.getElementById('descricao').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Descricao;
+        document.getElementById('imagem').src = "imagens/livro" +localStorage.getItem("numeroDoLivro") + ".jpg"; // SEMPRE UTILIZAR O NOME "livro" + "numero" nas imagens, exemplo "livro0", "livro1"
         localStorage.removeItem("numeroDoLivro");
     }
 }

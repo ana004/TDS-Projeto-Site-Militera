@@ -127,6 +127,12 @@
  .nxt-btn:hover img {
    opacity: 1;
  }
+
+
+ #imagem {
+ height: 40rem;
+ width: 100rem; 
+}
  
  
  
