@@ -10,6 +10,73 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Impactos</title>
 </head>
+
+<body class="text-center">
+    <header>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid py-3" style="background-color:#41333b;">
+          <a class="navbar-brand" href="home.html" style="color: #ffffff;">
+            <img src="/img/heart.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Militera
+          </a>
+          <div class=" navbar-nav d-none d-md-block ms-auto"> <!-- Até o fechamento da div todos os elementos só vão aparecer quando a tela for maior que md-->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link mx-5 " href="definicao.html"  style="color: #ffffff;">Definição</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#"  style="color: #ffffff;">Ditadura</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#"  style="color: #ffffff;">Impacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#"><img src="imagens/baixar-pdf.png" alt="pdf download"></a>
+              </li>
+              </ul>
+            </div>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Militera</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+      
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="definicao.html">Definição</a> <!-- Elementos com "d-md-none vão sumir quando a tela for menor e/ou igual a  md"-->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="#">Ditadura</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link d-md-none" href="#">Impacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Influência</a><head>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Referências</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+
+
 <body>
     <main>
         <div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 text-center mb-5" style="background-color:#41333b;" >
@@ -127,6 +194,26 @@
                   </div>
                 </div>
               </div>
-        </div>
+        </div> <div class="container">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-muted">Contato</a></li>
+                <li class="nav-item"><a href="politica_de_privacidade.html" class="nav-link px-2 text-muted">Política de privacidade</a></li>
+                <li class="nav-item"><a href="termos_uso.html" class="nav-link px-2 text-muted">Termos e condições</a></li>
+              </ul>
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+                <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+
+
+
 </body>
 </html>
