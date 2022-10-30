@@ -133,7 +133,15 @@
  height: 40rem;
  width: 100rem; 
 }
- 
+
+#titulo, #autor, #ano, #descricao {
+  
+}
+
+.title-header {
+  display: inline-block;
+  margin-right: 0.2rem;
+}
  
  
  

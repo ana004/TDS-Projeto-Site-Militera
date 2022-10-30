@@ -112,7 +112,7 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Nome": "Livro 0",
                 "Autor": "Autor 1", // Posição 0
                 "Ano": 2004,
-                "Descricao": "0Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101"
+                "Descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. In nibh mauris cursus mattis. Fames ac turpis egestas integer eget aliquet nibh praesent. Facilisis sed odio morbi quis commodo odio aenean. Viverra suspendisse potenti nullam ac tortor vitae purus. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Vel turpis nunc eget lorem dolor sed viverra. Sed viverra tellus in hac. Sed enim ut sem viverra aliquet eget sit amet. Malesuada pellentesque elit eget gravida cum sociis natoque. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Ipsum faucibus vitae aliquet nec ullamcorper. Quam id leo in vitae turpis massa sed. Vitae et leo duis ut diam quam. Ut morbi tincidunt augue interdum velit euismod in pellentesque."
             },
 
             {
