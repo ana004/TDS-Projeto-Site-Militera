@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.navbar {
+  padding:  0;
+}
+
 .justify {
   display: flex;
   text-align: justify;
@@ -124,7 +128,7 @@
 }
 
 .linha_titulo {
-  background-image: linear-gradient(to right, transparent, rgb(186, 245, 245), transparent); 
+  background-image: linear-gradient(to right, transparent, rgba(103,117,132,255), transparent); 
   border: 0;
   height: 3px;
 }
