@@ -104,7 +104,6 @@ if (document.body.classList.contains('mostrar-livro')) {
     }
 }
 
-   // TODO - ADD PHOTO??
     let livrosJson =
     {
         "Livros": [

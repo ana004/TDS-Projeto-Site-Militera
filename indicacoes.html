@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/indicacoes.css">
     <title>Indicações</title>
 </head>
@@ -78,23 +78,27 @@
         </nav>
       </header>
 
-
+      <main class="text-center">
+        <h1 class="display-4 mb-3 mt-5 pt-5 fw-normal ">INTRODUÇÃO</h1>
+        <div class="container">
+        <div class="linha_titulo"> <hr></hr></div>
+      </div>
+      </main>
+  
       <!-- TIPO 1 DE LIVROS-->
-    <section class="books"> 
-        <h2 class="books-category">TIPO UM</h2>
+    <section class="books container-fluid px-5">
+      <h2 class="books-category mt-4">TIPO UM</h2> 
         <button class="pre-btn"><img src="imagens/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="imagens/arrow.png" alt=""></button>
         <div class="books-container">
             <div class="books-card">
                 <div class="books-image">
-                  <!-- <a href="mostrar-livro.html"> -->
                     <img src="imagens/livro0.jpg" class="books-thumb" alt="" onclick="redirectTo(0)">
-                  <!-- </a> -->
                 </div>
                 <div class="books-info">
                     <h2 class="books-brand">LIVRO TESTE</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                
                 </div>
             </div>
             <div class="books-card">
@@ -104,7 +108,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                  
                 </div>
             </div>
             <div class="books-card">
@@ -114,7 +118,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+             
                 </div>
             </div>
             <div class="books-card">
@@ -124,7 +128,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                    
                 </div>
             </div>
             <div class="books-card">
@@ -134,7 +138,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                   
                 </div>
             </div>
             <div class="books-card">
@@ -144,7 +148,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                   
                 </div>
             </div>
             <div class="books-card">
@@ -154,7 +158,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                   
                 </div>
             </div>
             <div class="books-card">
@@ -164,7 +168,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                 
                 </div>
             </div>
             <div class="books-card">
@@ -174,7 +178,7 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                 
                 </div>
             </div>
             <div class="books-card">
@@ -184,16 +188,15 @@
                 <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                     <p class="books-short-description">a short line about the cloth..</p>
-                    <span class="price">$20</span>
+                    
                 </div>
             </div>
         </div>
     </section>
 
-
     <!-- TIPO 2 -->
 
-    <section class="books"> 
+    <section class="books container-fluid px-5"> 
       <h2 class="books-category">TIPO DOIS</h2>
       <button class="pre-btn"><img src="imagens/arrow.png" alt=""></button>
       <button class="nxt-btn"><img src="imagens/arrow.png" alt=""></button>
@@ -205,7 +208,6 @@
               <div class="books-info">
                   <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -215,7 +217,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -225,7 +226,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -235,7 +235,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -245,7 +244,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -255,7 +253,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -265,7 +262,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -275,7 +271,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -285,7 +280,6 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
           <div class="books-card">
@@ -295,13 +289,11 @@
               <div class="books-info">
                 <h2 class="books-brand">LIVRO X</h2>
                   <p class="books-short-description">a short line about the cloth..</p>
-                  <span class="price">$20</span>
               </div>
           </div>
       </div>
   </section>
-    
-    
+
     <script src="js/script.js"></script>
 </body>
 </html>

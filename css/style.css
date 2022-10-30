@@ -128,7 +128,8 @@
 }
 
 .linha_titulo {
-  background-image: linear-gradient(to right, transparent, rgba(103,117,132,255), transparent); 
+  
+  background-image: linear-gradient(to right, transparent, rgba(67,48,59,255),  transparent); 
   border: 0;
   height: 3px;
 }
