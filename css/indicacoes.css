@@ -1,9 +1,6 @@
-/* HEADER */
-
 * {
    margin: 0;
    padding: 0;
-   font-family: "Mulish", sans-serif;
  }
  
  .content {
@@ -14,12 +11,11 @@
    text-align: center;
    color: #fff;
  }
- 
+
  /* PRODUCTS */
  .books {
    position: relative;
    overflow: hidden;
-   
    margin-top: 25px;
  }
 
@@ -37,7 +33,6 @@
  
  .books-container {
    padding: 0;
-
    display: flex;
    overflow-x: auto;
    scroll-behavior: smooth;
@@ -93,7 +88,6 @@
    font-size: 20px;
  }
  
- 
  .pre-btn,
  .nxt-btn {
    border: none;
@@ -142,11 +136,4 @@
   display: inline-block;
   margin-right: 0.2rem;
 }
- 
- 
- 
- 
- 
- 
- 
  
