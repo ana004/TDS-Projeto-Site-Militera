@@ -136,4 +136,11 @@
   display: inline-block;
   margin-right: 0.2rem;
 }
- 
+
+section {
+  margin-bottom: 50px;
+}
+
+.variable {
+  font-size: 25px;
+}
