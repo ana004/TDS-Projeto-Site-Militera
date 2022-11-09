@@ -88,40 +88,40 @@
   </header>
       
     <div class="container">
-        <div class="contact-box">
+        <div class="contact-box m-0 p-0">
             <div class="right">
-                <h2>CONTATO</h2>
-                <p>Caso tenha alguma sugestão ou feedback/crítica construtiva com relação ao conteúdo do MiLitera, basta entrar em contato. 
+                <h2 class="display-5 fw-normal" style="text-shadow: 3px 3px 7px #00000048;">CONTATO</h2><br>
+                <p class="mb-4" style="font-size: 19px;">Caso tenha alguma sugestão ou feedback/crítica construtiva com relação ao conteúdo do MiLitera, basta entrar em contato. 
                   Para isso, coloque os seus dados nos campos a seguir, que será respondido(a) de acordo com a demanda. Siga o modelo que foi colocado como exemplo nos campos e, para sua segurança, seus dados não serão utilizados com malícia. Para saber mais sobre isso, clique em "Política de privacidade", no final da página.
                 </p>
-                <form id="contato-form" action="https://formspree.io/f/xoqbjdeg" method="POST">
 
-                  <p><label for="name">Nome</label></p>
+                <form id="contato-form" action="https://formspree.io/f/xoqbjdeg" method="POST" class="mt-3">
+                  <p><label for="name" class="fw-bold mb-1">Nome:</label></p>
                     <input type="name" name="name" class="field required" placeholder="Maria da Silva" oninput="validarNome()">
                     <div class="flexbox-container">
                         <span class="span-required">O campo nome deve ter no mínimo 3 caracteres</span>
                     </div>
 
-                    <label for="email">E-mail</label>
+                    <label for="email" class="fw-bold mb-1">E-mail:</label>
                     <input type="email" name="email" class="field required" placeholder="mariadasilva@email.com"
                         oninput="validarEmail()">
                     <div class="flexbox-container">
                         <span class="span-required">Digite um e-mail válido, exemplo: nome@email.com</span>
                     </div>
 
-                    <label for="message">Mensagem</label>
+                    <label for="message" class="fw-bold mb-1">Mensagem:</label>
                     <textarea type="text" name="message" class="field required" placeholder="Eu gostaria de perguntar sobre..." 
                         oninput="validarMensagem()"></textarea>
                     <div class="flexbox-container">
                         <span class="span-required">O campo mensagem deve ter no mínimo 30 caracteres</span>
                     </div>
 
-                    <button type="submit" class="btn" onclick="brownAndWhite()">Enviar</button>
+                    <button type="submit" class="btn" onclick="brownAndWhite()">Enviar &rarr;</button>
 
                 </form>
             </div>
         </div>
-    </div>
+    </div><br><br>
 
      <!--Parte do código para linkagem para outras págs-->
      <footer class="container-fluid bottom p-6 pb-2 mx-auto" style="background-color:#41333b;">
