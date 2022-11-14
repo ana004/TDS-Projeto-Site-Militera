@@ -87,12 +87,8 @@
         </header>
           
   </div>
-
-   
-
-
     <main>
-      <div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 text-center mb-5" style="background-color:#41333b;">
+    <!-- <main><div class="position-relative overflow-hidden p-3 p-md-2 m-md-3 text-center mb-5" style="background-color:#41333b;">
         <div class="col-md-10 p-lg-5 mx-auto my-5">
           <h1 class="display-4 fw-normal text-light">Termos de Uso</h1>
           <p class="lead fw-normal text-light">Nesta página, você confere os nossos Termos de Uso e todos os detalhes sobre o funcionamento do nosso site</p>
@@ -100,9 +96,87 @@
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
-    </main>
+    </main> -->
+
+    <header>
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid py-3" style="background-color:#41333b;">
+          <a class="navbar-brand" href="index.html" style="color: #ffffff;">
+            <img src="/img/heart.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Militera
+          </a>
+          
+          <div class=" navbar-nav d-none d-md-block ms-auto">
+            <!-- Até o fechamento da div todos os elementos só vão aparecer quando a tela for maior que md-->
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="definicao.html" style="color: #ffffff; font-size: 19px;">Definição</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="color: #ffffff; font-size: 19px;">Ditadura</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="impactos.html" style="color: #ffffff; font-size: 19px;">Impacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#"><img src="imagens/baixar-pdf.png" alt="pdf download"></a>
+              </li>
+            </ul>
+          </div>
   
-    <div class="container">
+          <button class="navbar-toggler bg-light mx-3" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Militera</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+  
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-md-none" href="definicao.html">Definição</a>
+                  <!-- Elementos com "d-md-none vão sumir quando a tela for menor e/ou igual a  md"-->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-md-none" href="#">Ditadura</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link d-md-none" href="impactos.html">Impacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Influência</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Referências</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="indicacoes.html">Indicações</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="text-center">
+      <h1 class="display-4 mb-3 mt-5 pt-5 fw-normal" style="text-shadow: 3px 3px 7px #00000048;">TERMOS DE USO</h1>
+      <div class="container">
+        <div class="linha_titulo"> <hr></hr></div>
+      </div>
+    </div>
+  
+    <div class="container mt-5">
       <p class="justify">
         Os Termos de uso são uma importante parte de um site, pois, basicamente, se trata de uma espécie de contrato entre o usuário com a empresa, informando 
         deveres e obrigações de ambos, além de ser um documento oficial, alinhado com a legislação vigente de direitos dos usuários. Abaixo, estão disponibilizadas 
@@ -168,23 +242,23 @@
       </p>
   </div>
 
-    <div class="text-center" style="background-color:#41333b; width:100%;">
-      <footer>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item" style="color: #ffffff;"><a href="sobre.html" class="nav-link px-2 text-muted" style="color: #ffffff;">Sobre</a></li>
-          <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-muted">Contato</a></li>
-          <li class="nav-item"><a href="politica_de_privacidade.html" class="nav-link px-2 text-muted">Política de privacidade</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Termos e condições</a></li>
-        </ul>
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
-          <p style="color: #ffffff;">&copy; 2022 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
+
+ <!--Parte do código para linkagem para outras págs-->
+ <footer class="container-fluid p-6 pb-2 mx-auto" style="background-color:#41333b;">
+  <ul class="nav justify-content-center border-bottom">
+    <li class="nav-item"><a href="sobre.html" class="nav-link px-7" style="color: #f3f0f0;">Sobre</a></li>
+    <li class="nav-item"><a href="contato.html" class="nav-link px-7" style="color: #f3f0f0;">Contato</a></li>
+    <li class="nav-item"><a href="politica_de_privacidade.html" class="nav-link px-7" style="color: #f3f0f0;">Política de privacidade</a></li>
+    <li class="nav-item"><a href="termos_uso.html" class="nav-link px-7" style="color: #f3f0f0;">Termos e condições</a></li>
+  </ul>
+  <div class="d-flex flex-column flex-sm-row justify-content-between pt-2 pb-0 mb-0">
+    <p style="color: #f3f0f0;">&copy; 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+    </ul>
+  </div>
+</footer>
   </body>
 </html>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <title>Sobre</title>
@@ -18,24 +19,43 @@
       <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid py-3" style="background-color:#41333b;">
           <a class="navbar-brand" href="index.html" style="color: #ffffff;">
-            <img src="/img/heart.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          Militera
+            <img src="/img/heart.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Militera
           </a>
-          <div class=" navbar-nav d-none d-md-block ms-auto"> <!-- Até o fechamento da div todos os elementos só vão aparecer quando a tela for maior que md-->
+          
+          <div class=" navbar-nav d-none d-md-block ms-auto">
+            <!-- Até o fechamento da div todos os elementos só vão aparecer quando a tela for maior que md-->
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link mx-5 " href="definicao.html"  style="color: #ffffff;">Definição</a>
+                <a class="nav-link mx-3" href="definicao.html" style="color: #ffffff; font-size: 19px;">Definição</a>
               </li>
               <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link mx-5" href="ditadura.html"  style="color: #ffffff;">Ditadura</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-5" href="impactos.html"  style="color: #ffffff;">Impacto</a>
+=======
+                <a class="nav-link mx-3" href="#" style="color: #ffffff; font-size: 19px;">Ditadura</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#"><img src="imagens/baixar-pdf.png" alt="pdf download"></a>
+                <a class="nav-link mx-3" href="impactos.html" style="color: #ffffff; font-size: 19px;">Impacto</a>
+>>>>>>> a3e7259ff97b2097aa95e222c637252c7f0e2176
               </li>
-              </ul>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#"><img src="imagens/baixar-pdf.png" alt="pdf download"></a>
+              </li>
+            </ul>
+          </div>
+  
+          <button class="navbar-toggler bg-light mx-3" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon bg-light"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Militera</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <span class="navbar-toggler-icon bg-light"></span>
@@ -70,15 +90,15 @@
                 <li class="nav-item">
                   <a class="nav-link" href="indicacoes.html">Indicações</a>
                 </li>
-                
                 <li class="nav-item">
                   <a class="nav-link mx-5" href="#"><img src="imagens/pdf.png" alt="pdf download"></a>
                 </li>
-              </div>
+              </ul>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
 <br><br><br>
   
@@ -162,26 +182,23 @@
 <br><br>
 
 
-      <div class="container">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre</a></li>
-            <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-muted">Contato</a></li>
-            <li class="nav-item"><a href="politica_de_privacidade.html" class="nav-link px-2 text-muted">Política de privacidade</a></li>
-            <li class="nav-item"><a href="termos_uso.html" class="nav-link px-2 text-muted">Termos e condições</a></li>
-          </ul>
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><img src="imagens/instagram.png"/></a></li>
-            </ul>
-          </div>
-        </footer>
-      </div>
-
-     
+ <!--Parte do código para linkagem para outras págs-->
+ <footer class="container-fluid p-6 pb-2 mx-auto" style="background-color:#41333b;">
+  <ul class="nav justify-content-center border-bottom">
+    <li class="nav-item"><a href="sobre.html" class="nav-link px-7" style="color: #f3f0f0;">Sobre</a></li>
+    <li class="nav-item"><a href="contato.html" class="nav-link px-7" style="color: #f3f0f0;">Contato</a></li>
+    <li class="nav-item"><a href="politica_de_privacidade.html" class="nav-link px-7" style="color: #f3f0f0;">Política de privacidade</a></li>
+    <li class="nav-item"><a href="termos_uso.html" class="nav-link px-7" style="color: #f3f0f0;">Termos e condições</a></li>
+  </ul>
+  <div class="d-flex flex-column flex-sm-row justify-content-between pt-2 pb-0 mb-0">
+    <p style="color: #f3f0f0;">&copy; 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+      <li class="ms-3"><a class="link-light" href="#"><img src="imagens/instagram.png" /></a></li>
+    </ul>
+  </div>
+</footer>
         
  </body>
 
