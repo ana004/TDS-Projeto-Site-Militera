@@ -104,36 +104,39 @@ if (document.body.classList.contains('mostrar-livro')) {
     }
 }
 
+
+
     let livrosJson =
     {
         "Livros": [
 
             {   
-                "Nome": "Livro 0",
-                "Autor": "Autor 0", // Posição 0
-                "Ano": 2004,
-                "Descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. In nibh mauris cursus mattis. Fames ac turpis egestas integer eget aliquet nibh praesent. Facilisis sed odio morbi quis commodo odio aenean. Viverra suspendisse potenti nullam ac tortor vitae purus. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Vel turpis nunc eget lorem dolor sed viverra. Sed viverra tellus in hac. Sed enim ut sem viverra aliquet eget sit amet. Malesuada pellentesque elit eget gravida cum sociis natoque. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Ipsum faucibus vitae aliquet nec ullamcorper. Quam id leo in."
+                
+                "Nome": "A ditadura envergonhada",
+                "Autor": "Elio Gaspari", // Posição 0
+                "Ano": 2014,
+                "Descricao": " Durante os últimos trinta anos, o jornalista Elio Gaspari reuniu documentos até então inéditos e fez uma exaustiva pesquisa sobre o governo militar no Brasil. O resultado desse meticuloso trabalho gerou um conjunto de quatro volumes que compõe a obra mais importante sobre a história recente do país, e que acaba de ganhar uma edição revista e ampliada, enriquecida com novas fotos e projeto gráfico de Victor Burton."
             },
 
             {
-                "Nome": "Livro 1",
-                "Autor": "Autor 1", 
-                "Ano": 2005,
-                "Descricao": "1Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101"
+                "Nome": "Marighella",
+                "Autor": "Mario Magalhães", 
+                "Ano": 2012,
+                "Descricao": "O jornalista Mário Magalhães reconstitui a trepidante trajetória do revolucionário Carlos Marighella, militante do Partido Comunista Brasileiro e fundador da Ação Libertadora Nacional, o maior grupo armado de oposição à ditadura militar (1964-85)."
             },
 
             {
-                "Nome": "Livro 2",
-                "Autor": "Autor 2",
-                "Ano": 2006,
-                "Descricao": "2Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010101 Lalalalalalalalalal 01 101 10101001010102"
+                "Nome": "Marighella",
+                "Autor": "Mario Magalhães", 
+                "Ano": 2012,
+                "Descricao": "O jornalista Mário Magalhães reconstitui a trepidante trajetória do revolucionário Carlos Marighella, militante do Partido Comunista Brasileiro e fundador da Ação Libertadora Nacional, o maior grupo armado de oposição à ditadura militar (1964-85)."
             },
 
             {
-                "Nome": "Livro 3",
-                "Autor": "Autor 3",
-                "Ano": 2006,
-                "Descricao": "bla bla bla"
+                "Nome": "1964",
+                "Autor": "Angela de Castro",
+                "Ano": 2014,
+                "Descricao": "Um panorama de como se instaurou a ditadura civil-militar no Brasil e seus desdobramentos. Pelas mãos de Jorge Ferreira e Ângela de Castro Gomes, é possível entender melhor esse conturbado período da história, que rendeu ao país duas décadas de repressão e tantas injustiças. Numa linguagem objetiva, sem exageros acadêmicos ou notas de rodapé excessivas, que tornem o texto menos atraente para o grande público, os autores destacam personagens e momentos que marcaram o período, relembrando falas de personalidades e trechos de jornais que noticiaram o Golpe."
             },
 
             {
@@ -151,3 +154,5 @@ if (document.body.classList.contains('mostrar-livro')) {
             },
         ]
     }
+
+    
