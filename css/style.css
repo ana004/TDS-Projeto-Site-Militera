@@ -165,3 +165,26 @@
 /* footer {
   bottom:0;
 } */
+
+
+.btn {
+  text-align: center;
+  font-weight: 500;
+  cursor:pointer;
+
+}
+
+.box {
+  height: auto;
+  background-color: #eff5f7;
+  border: 1px solid #d1e4e8;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  text-transform: none;
+  text-align: justify;
+  margin-bottom: 10%;
+  padding: 2.2%;
+  text-indent: 1.5em;
+  display: none;
+}
