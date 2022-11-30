@@ -115,49 +115,49 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Nome": "A ditadura envergonhada",
                 "Autor": "Elio Gaspari", 
                 "Ano": 2014,
-                "Descricao": " Durante os últimos trinta anos, o jornalista Elio Gaspari reuniu documentos até então inéditos e fez uma exaustiva pesquisa sobre o governo militar no Brasil. O resultado desse meticuloso trabalho gerou um conjunto de quatro volumes que compõe a obra mais importante sobre a história recente do país, e que acaba de ganhar uma edição revista e ampliada, enriquecida com novas fotos e projeto gráfico de Victor Burton."
+                "Descricao": " durante os últimos trinta anos, o jornalista Elio Gaspari reuniu documentos até então inéditos e fez uma exaustiva pesquisa sobre o governo militar no Brasil. O resultado desse meticuloso trabalho gerou um conjunto de quatro volumes que compõe a obra mais importante sobre a história recente do país, e que acaba de ganhar uma edição revista e ampliada, enriquecida com novas fotos e projeto gráfico de Victor Burton."
             },
 
             {
                 "Nome": "Marighella",
                 "Autor": "Mario Magalhães", 
                 "Ano": 2012,
-                "Descricao": "O jornalista Mário Magalhães reconstitui a trepidante trajetória do revolucionário Carlos Marighella, militante do Partido Comunista Brasileiro e fundador da Ação Libertadora Nacional, o maior grupo armado de oposição à ditadura militar (1964-85)."
+                "Descricao": "o jornalista Mário Magalhães reconstitui a trepidante trajetória do revolucionário Carlos Marighella, militante do Partido Comunista Brasileiro e fundador da Ação Libertadora Nacional, o maior grupo armado de oposição à ditadura militar (1964-85)."
             },
 
             {
                 "Nome": "1964",
                 "Autor": "Angela de Castro",
                 "Ano": 2014,
-                "Descricao": "Um panorama de como se instaurou a ditadura civil-militar no Brasil e seus desdobramentos. Pelas mãos de Jorge Ferreira e Ângela de Castro Gomes, é possível entender melhor esse conturbado período da história, que rendeu ao país duas décadas de repressão e tantas injustiças. Numa linguagem objetiva, sem exageros acadêmicos ou notas de rodapé excessivas, que tornem o texto menos atraente para o grande público, os autores destacam personagens e momentos que marcaram o período, relembrando falas de personalidades e trechos de jornais que noticiaram o Golpe."
+                "Descricao": "um panorama de como se instaurou a ditadura civil-militar no Brasil e seus desdobramentos. Pelas mãos de Jorge Ferreira e Ângela de Castro Gomes, é possível entender melhor esse conturbado período da história, que rendeu ao país duas décadas de repressão e tantas injustiças. Numa linguagem objetiva, sem exageros acadêmicos ou notas de rodapé excessivas, que tornem o texto menos atraente para o grande público, os autores destacam personagens e momentos que marcaram o período, relembrando falas de personalidades e trechos de jornais que noticiaram o Golpe."
             },
 
             {
                 "Nome": "Infância Roubada - Crianças Atingidas pela Ditadura no Brasil",
                 "Autor": "Comissão da Verdade",
                 "Ano": 2014,
-                "Descricao": "Nesta obra é apresentado uma visão diferente sobre o período ditatorial no Brasil, o olhar das crianças que tiveram suas infâncias roubadas pelo regime."
+                "Descricao": "nesta obra é apresentado uma visão diferente sobre o período ditatorial no Brasil, o olhar das crianças que tiveram suas infâncias roubadas pelo regime."
             },
 
             {
                 "Nome": "As meninas",
                 "Autor": "Lygia Fagundes Telles", 
                 "Ano": 2009,
-                "Descricao": "A burguesa Lorena, filha de família quatrocentona, nutre veleidades artísticas e literárias. Namora um homem casado, mas permanece virgem. A drogada Ana Clara, linda como uma modelo, divide-se entre o noivo rico e o amante traficante. Lia, por fim, milita num grupo da esquerda armada e sofre pelo namorado preso. As meninas colhe essas três criaturas em pleno movimento, num momento de impasse em suas vidas."
+                "Descricao": "a burguesa Lorena, filha de família quatrocentona, nutre veleidades artísticas e literárias. Namora um homem casado, mas permanece virgem. A drogada Ana Clara, linda como uma modelo, divide-se entre o noivo rico e o amante traficante. Lia, por fim, milita num grupo da esquerda armada e sofre pelo namorado preso. As meninas colhe essas três criaturas em pleno movimento, num momento de impasse em suas vidas."
             },
 
             {
                 "Nome": "Volto semana que vem",
-                "Autor": "Marilia Pilla ", 
+                "Autor": "Marilia Pilla", 
                 "Ano": 2015,
-                "Descricao": "Volto semana que vem” é o que a narradora deste livro responde ao pai ao sair de casa num dia de 1970, quando ele pergunta, espantado, aonde ela vai. “Mais de dez anos se passaram até eu voltar àquela cozinha”, conclui ela em seguida. Composto por recortes de memória, o livro é o retrato de uma vida brasileira exemplar: a de quem foi criança logo depois da Era Vargas (o dia do suicídio de Getúlio é uma das primeiras cenas evocadas aqui), cresceu nos tempos de Juscelino, foi jovem com a ditadura, militou com a esquerda, conheceu a prisão, a tortura e o exílio."
+                "Descricao": "''volto semana que vem” é o que a narradora deste livro responde ao pai ao sair de casa num dia de 1970, quando ele pergunta, espantado, aonde ela vai. “Mais de dez anos se passaram até eu voltar àquela cozinha”, conclui ela em seguida. Composto por recortes de memória, o livro é o retrato de uma vida brasileira exemplar: a de quem foi criança logo depois da Era Vargas (o dia do suicídio de Getúlio é uma das primeiras cenas evocadas aqui), cresceu nos tempos de Juscelino, foi jovem com a ditadura, militou com a esquerda, conheceu a prisão, a tortura e o exílio."
             },
 
             {
                 "Nome": "Bar Don Juan",
                 "Autor": "Antonio Callado", 
                 "Ano": 2014,
-                "Descricao": "Uma narrativa poderosa, que se mantém atual mesmo – ou principalmente – com o passar do tempo. Fala-se em esquerda festiva, dos intelectuais sonhadores, de um Brasil com uma efervescência política parecida com a dos protestos iniciados em junho de 2013, embora Callado tenha escrito há tantos anos. Marcado pela desilusão dos projetos de luta armada entre os setores de esquerda na classe média, o autor narra a vida de um grupo de amigos que se envolve no combate à ditadura em meio à discussões políticas na boemia carioca. • Continuação de Quarup, romance que foi publicado anteriormente."
+                "Descricao": "uma narrativa poderosa, que se mantém atual mesmo - ou principalmente - com o passar do tempo. Fala-se em esquerda festiva, dos intelectuais sonhadores, de um Brasil com uma efervescência política parecida com a dos protestos iniciados em junho de 2013, embora Callado tenha escrito há tantos anos. Marcado pela desilusão dos projetos de luta armada entre os setores de esquerda na classe média, o autor narra a vida de um grupo de amigos que se envolve no combate à ditadura em meio à discussões políticas na boemia carioca."
             },
 
             {
@@ -171,7 +171,7 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Nome": "Os Que Bebem Como Os Cães",
                 "Autor": " Assis Brasil", 
                 "Ano": 1975,
-                "Descricao": "Romance que narra a história de Jeremias, um prisioneiro que sofreu lavagem cerebral e perdeu a memória. Sem saber o motivo de sua prisão, tenta se adaptar a rotina torturante do cárcere, em condições sub humanas. Algemado dentro de uma cela, com as mãos para trás, recebe uma soa com droga, para que não tenha noção do tempo. Para tomá-la, abaixa-se igualmente a um cão."
+                "Descricao": "romance que narra a história de Jeremias, um prisioneiro que sofreu lavagem cerebral e perdeu a memória. Sem saber o motivo de sua prisão, tenta se adaptar a rotina torturante do cárcere, em condições sub humanas. Algemado dentro de uma cela, com as mãos para trás, recebe uma soa com droga, para que não tenha noção do tempo. Para tomá-la, abaixa-se igualmente a um cão."
             },
 
 
