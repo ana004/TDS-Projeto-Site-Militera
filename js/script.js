@@ -35,7 +35,7 @@ if (document.body.classList.contains('contato')) {
     }
 
     function validarNome() {
-        if (campos[0].value.length < 3) {
+        if (campos[0].value.length < 3 || campos[0].value.length > 60 ) {
             isError = true;
             setError(0);
         } else {
@@ -55,7 +55,7 @@ if (document.body.classList.contains('contato')) {
     }
 
     function validarMensagem() {
-        if (campos[2].value.length < 30) {
+        if (campos[2].value.length < 30 || campos[2].value.length > 250) {
             isError = true;
             setError(2);
         } else {
@@ -100,7 +100,7 @@ if (document.body.classList.contains('mostrar-livro')) {
         document.getElementById('ano').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Ano; 
         document.getElementById('descricao').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Descricao;
         document.getElementById('imagem').src = "imagens/livro" +localStorage.getItem("numeroDoLivro") + ".jpg"; // SEMPRE UTILIZAR O NOME "livro" + "numero" nas imagens, exemplo "livro0", "livro1"
-        localStorage.removeItem("numeroDoLivro");
+        
     }
 }
 
