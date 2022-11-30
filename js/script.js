@@ -184,7 +184,7 @@ if (document.body.classList.contains('mostrar-livro')) {
             //  Livros de pessoas que sofreram a ditadura - FILEIRA 2
 
             {
-                "Nome": "O Vôo da Arara Azul", // Posiçõ 10
+                "Nome": "O Voo da Arara Azul", // Posiçõ 10
                 "Autor": "Maria José Silveira", 
                 "Ano": 2011,
                 "Descricao": "A época é a ditadura militar no Brasil, em 1969. André tem 13 anos e é um adolescente inquieto e observador, que cria uma arara-azul em sua casa, em um bairro de classe média em São Paulo. Ele alimenta um amor platônico por Lia, uma mulher mais velha, engajada em questões políticas, que se muda para a casa ao lado."
@@ -195,13 +195,6 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Autor": "Matheus Leitão ", 
                 "Ano": 2017,
                 "Descricao": "movido pela curiosidade de compreender o passado, o jovem perguntador passou a recolher retalhos de uma história dolorosa, que se iniciou em 1972, no Espírito Santo, quando os pais militavam no PCdoB. Delatados por um companheiro, foram presos e torturados. Na ocasião, Míriam estava grávida de Vladimir, o primeiro filho do casal."
-            },
-
-            {
-                "Nome": "Mulheres na Luta Armada: protagonismo Feminino na ALN",
-                "Autor": " Maria Cláudia Badan Ribeiro", 
-                "Ano": 2018,
-                "Descricao": "''Mulheres na luta armada: protagonismo feminino na ALN (Ação Libertadora Nacional)'' chega preenchendo algumas lacunas importantes para o estudo e compreensão dos anos e atos de resistência à ditadura de 1964. Houve um momento em nosso país em que a única oposição aberta ao sistema eram as ações armadas de guerrilha urbana, desencadeadas a partir de 1967 até 1973, seis anos de enfrentamento frequentemente ignorados pela história oficial. Seja escrita pela direita, seja pela esquerda institucional."
             },
 
             {
@@ -246,9 +239,19 @@ if (document.body.classList.contains('mostrar-livro')) {
                 "Descricao": "''volto semana que vem” é o que a narradora deste livro responde ao pai ao sair de casa num dia de 1970, quando ele pergunta, espantado, aonde ela vai. “Mais de dez anos se passaram até eu voltar àquela cozinha”, conclui ela em seguida. Composto por recortes de memória, o livro é o retrato de uma vida brasileira exemplar: a de quem foi criança logo depois da Era Vargas (o dia do suicídio de Getúlio é uma das primeiras cenas evocadas aqui), cresceu nos tempos de Juscelino, foi jovem com a ditadura, militou com a esquerda, conheceu a prisão, a tortura e o exílio."
             },
 
+            {
+                "Nome": "A Verdade Sufocada - A história que a esquerda não quer que o Brasil conheça",
+                "Autor": "Coronel Carlos Alberto Brilhante Ustra", 
+                "Ano": 2015,
+                "Descricao": "Comandei o doi/codi/ii exército, de 29/09/1970 a 23/01/1974, período em que as organizações terroristas atuaram com maior intensidade. Neste livro conto como os órgãos de segurança as derrotaram. Na luta armada, lamentavelmente, tivemos cerca de 500 vítimas, de ambos os lados, um número bastante reduzido se o compararmos com os demais países da américa latina que, também, enfrentaram o terrorismo. Além dos relatos, procuro desfazer mitos, farsas e mentiras divulgadas para manipular a opinião pública e para desacreditar e desmoralizar aqueles que as venceram. - Carlos Alberto Ustra."
+            },
 
-
-
+            {
+                "Nome": "Como ser um ditador",
+                "Autor": "Mikal Hem", 
+                "Ano": 2021,
+                "Descricao": "Alguns entre nós sonham em se perpetuar no poder, porém, sem o incômodo das eleições democráticas, conquista de votos e debates eleitorais. A separação dos poderes, mídia livre, acordos internacionais, para alguns políticos, não são nada mais do que obstáculos a serem superados. O livro Como ser um ditador?, do jornalista Mikal Hem, traz todos os truques para se chegar e permanecer no topo ― bem como as melhores maneiras de se desfrutar do poder ilimitado.Trazendo o exemplo dos ditadores de maior sucesso ― incluindo Kim Jong Il, Robert Mugabe, Muammar Gaddafi, Nicolae Ceausescu e François “Papa Doc” Duvalier ―, este guia prático oferece dez lições fáceis sobre como conquistar sua própria ditadura, incluindo importantes dicas sobre fraude eleitoral, criação de um culto à personalidade e as roupas da moda nesse universo de poder absoluto."
+            }
         ]
     }
 
