@@ -100,7 +100,7 @@ if (document.body.classList.contains('mostrar-livro')) {
         document.getElementById('ano').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Ano; 
         document.getElementById('descricao').innerHTML = livrosJson.Livros[localStorage.getItem("numeroDoLivro")].Descricao;
         document.getElementById('imagem').src = "imagens/livro" +localStorage.getItem("numeroDoLivro") + ".jpg"; // SEMPRE UTILIZAR O NOME "livro" + "numero" nas imagens, exemplo "livro0", "livro1"
-        localStorage.removeItem("numeroDoLivro");
+        
     }
 }
 
