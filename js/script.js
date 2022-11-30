@@ -133,27 +133,6 @@ if (document.body.classList.contains('mostrar-livro')) {
             },
 
             {
-                "Nome": "Infância Roubada - Crianças Atingidas pela Ditadura no Brasil",
-                "Autor": "Comissão da Verdade",
-                "Ano": 2014,
-                "Descricao": "nesta obra é apresentado uma visão diferente sobre o período ditatorial no Brasil, o olhar das crianças que tiveram suas infâncias roubadas pelo regime."
-            },
-
-            {
-                "Nome": "As meninas",
-                "Autor": "Lygia Fagundes Telles", 
-                "Ano": 2009,
-                "Descricao": "a burguesa Lorena, filha de família quatrocentona, nutre veleidades artísticas e literárias. Namora um homem casado, mas permanece virgem. A drogada Ana Clara, linda como uma modelo, divide-se entre o noivo rico e o amante traficante. Lia, por fim, milita num grupo da esquerda armada e sofre pelo namorado preso. As meninas colhe essas três criaturas em pleno movimento, num momento de impasse em suas vidas."
-            },
-
-            {
-                "Nome": "Volto semana que vem",
-                "Autor": "Marilia Pilla", 
-                "Ano": 2015,
-                "Descricao": "''volto semana que vem” é o que a narradora deste livro responde ao pai ao sair de casa num dia de 1970, quando ele pergunta, espantado, aonde ela vai. “Mais de dez anos se passaram até eu voltar àquela cozinha”, conclui ela em seguida. Composto por recortes de memória, o livro é o retrato de uma vida brasileira exemplar: a de quem foi criança logo depois da Era Vargas (o dia do suicídio de Getúlio é uma das primeiras cenas evocadas aqui), cresceu nos tempos de Juscelino, foi jovem com a ditadura, militou com a esquerda, conheceu a prisão, a tortura e o exílio."
-            },
-
-            {
                 "Nome": "Bar Don Juan",
                 "Autor": "Antonio Callado", 
                 "Ano": 2014,
@@ -168,11 +147,106 @@ if (document.body.classList.contains('mostrar-livro')) {
             },
 
             {
-                "Nome": "Os Que Bebem Como Os Cães",
-                "Autor": " Assis Brasil", 
-                "Ano": 1975,
-                "Descricao": "romance que narra a história de Jeremias, um prisioneiro que sofreu lavagem cerebral e perdeu a memória. Sem saber o motivo de sua prisão, tenta se adaptar a rotina torturante do cárcere, em condições sub humanas. Algemado dentro de uma cela, com as mãos para trás, recebe uma soa com droga, para que não tenha noção do tempo. Para tomá-la, abaixa-se igualmente a um cão."
+                "Nome": "Feliz Ano velho",
+                "Autor": "Marcelo Rubens Paiva", 
+                "Ano": 2015,
+                "Descricao": "aos vinte anos, Marcelo sobe em uma pedra e mergulha numa lagoa imitando o Tio Patinhas. A lagoa é rasa, ele esmigalha uma vértebra e perde os movimentos do corpo. Escrito com sentido de urgência, o livro relata as mudanças irreversíveis na vida do garoto a partir do acidente. Ele é transferido de um hospital a outro, enfrenta médicos reticentes, luta para conquistar pequenas reações do corpo. Aos poucos, se dá conta de sua nova realidade, irreversível. Ao mesmo tempo ele recorda momentos tristes como quando seu pai desapareceu após ser preso político durante a ditadura militar."
             },
+
+            {
+                "Nome": "Os Carbonários",
+                "Autor": "Alfredo Sirkis", 
+                "Ano": 1998,
+                "Descricao": "foi a partir do livro Os Carbonários que muitos brasileiros puderam compreender o que significou o Ato Institucional Número 5 (AI-5) as passeatas de 1968 os seqüestros dos embaixadores da Suíça e da Alemanha a libertação de presos políticos e as ações da ditadura para aniquilar as oposições "
+            },
+
+            {
+                "Nome": "Ditadura e repressão",
+                "Autor": "Anthony W. Pereira ", 
+                "Ano": 2012,
+                "Descricao": "Por que os regimes autoritários se deram ao trabalho de ''judiciar a repressão''? Se chegaram ao poder através da força, por que não continuaram a exercê-la? Ditadura e repressão, de Anthony W. Pereira, professor e diretor do Brazil Institute do King'' s College em Londres, investiga a legalidade autoritária ao analisar os aspectos legais das ditaduras militares em três países do cone sul: Brasil, Chile e Argentina."
+            },
+
+            {
+                "Nome": "Brasil: nunca mais",
+                "Autor": "Dom Paulo Evaristo Arns", 
+                "Ano": 2014,
+                "Descricao": "um grupo de especialistas dedicou-se durante 8 anos a reunir cópias de mais de 700 processos políticos que tramitaram pela Justiça Militar, entre abril de 64 e março de 79. O resumo desta pesquisa está neste livro. Um relato doloroso da repressão e tortura que se abateram sobre o Brasil."
+            },
+
+            {
+                "Nome": "Ah como era boa a ditadura",
+                "Autor": "Luiz Gê", 
+                "Ano": 2015,
+                "Descricao": "o Brasil é um país em constante processo de transformação política. Desde 2013, o povo vai às ruas. Entre as várias manifestações, uma chamou a atenção: o pedido de volta à ditadura militar que governou o país entre 1964 e 1985. Mas o que foi a ditadura e, sobretudo, qual o seu legado para o Brasil? Trabalhando na Folha de S.Paulo, o quadrinista Luiz Gê acompanhou de perto o processo de abertura política rumo à democracia, com brilhantes charges sobre o que viria a ser o Brasil democrático."
+            },
+       
+            //  Livros de pessoas que sofreram a ditadura - FILEIRA 2
+
+            {
+                "Nome": "O Vôo da Arara Azul", // Posiçõ 10
+                "Autor": "Maria José Silveira", 
+                "Ano": 2011,
+                "Descricao": "A época é a ditadura militar no Brasil, em 1969. André tem 13 anos e é um adolescente inquieto e observador, que cria uma arara-azul em sua casa, em um bairro de classe média em São Paulo. Ele alimenta um amor platônico por Lia, uma mulher mais velha, engajada em questões políticas, que se muda para a casa ao lado."
+            },
+
+            {
+                "Nome": "Em Nome Dos Pais",
+                "Autor": "Matheus Leitão ", 
+                "Ano": 2017,
+                "Descricao": "movido pela curiosidade de compreender o passado, o jovem perguntador passou a recolher retalhos de uma história dolorosa, que se iniciou em 1972, no Espírito Santo, quando os pais militavam no PCdoB. Delatados por um companheiro, foram presos e torturados. Na ocasião, Míriam estava grávida de Vladimir, o primeiro filho do casal."
+            },
+
+            {
+                "Nome": "Mulheres na Luta Armada: protagonismo Feminino na ALN",
+                "Autor": " Maria Cláudia Badan Ribeiro", 
+                "Ano": 2018,
+                "Descricao": "''Mulheres na luta armada: protagonismo feminino na ALN (Ação Libertadora Nacional)'' chega preenchendo algumas lacunas importantes para o estudo e compreensão dos anos e atos de resistência à ditadura de 1964. Houve um momento em nosso país em que a única oposição aberta ao sistema eram as ações armadas de guerrilha urbana, desencadeadas a partir de 1967 até 1973, seis anos de enfrentamento frequentemente ignorados pela história oficial. Seja escrita pela direita, seja pela esquerda institucional."
+            },
+
+            {
+                "Nome": "Notas de um tempo silenciado",
+                "Autor": "Robson Vilalba", 
+                "Ano": 2015,
+                "Descricao": "nem toda a história foi contada. Algumas permaneceram esquecidas, outras silenciadas... Mas nem por isso foram apagadas da memória individual e coletiva da resistência ao Golpe de 64. Um olhar profundo sobre a ditadura militar no Brasil. Um mosaico de elementos que, em sua particularidade, revelam a cada capítulo, a cada traço, o que teria sido viver e sobreviver à ditadura e, hoje, poder contá-la."
+            },
+
+            {
+                "Nome": "Ainda estou aqui",
+                "Autor": "Marcelo Rubens Paiva", 
+                "Ano": 2015,
+                "Descricao": "Eunice Paiva é uma mulher de muitas vidas. Casada com o deputado Rubens Paiva, esteve ao seu lado quando foi cassado e exilado, em 1964. Mãe de cinco filhos, passou a criá-los sozinha quando, em 1971, o marido foi preso por agentes da ditadura, a seguir torturado e morto. Em meio à dor, ela se reinventou. "
+            },
+
+            {
+                "Nome": "Infância Roubada - Crianças Atingidas pela Ditadura no Brasil",
+                "Autor": "Comissão da Verdade",
+                "Ano": 2014,
+                "Descricao": "nesta obra é apresentado uma visão diferente sobre o período ditatorial no Brasil, o olhar das crianças que tiveram suas infâncias roubadas pelo regime."
+            },
+
+            {
+                "Nome": "K - relato de uma busca",
+                "Autor": "Bernardo Kucinski", 
+                "Ano": 2016,
+                "Descricao": "em 1974, a irmã de Bernardo Kucinski, professora de Química na Universidade de São Paulo, é presa pelos militares ao lado do marido e desaparece sem deixar rastros. O pai dela, dono de uma loja no Bom Retiro e judeu imigrante que na juventude fora preso por suas atividades políticas, inicia então uma busca incansável pela filha e depara com a muralha de silêncio em torno do desaparecimento dos presos políticos. K. narra a história dessa busca."
+            },
+
+            {
+                "Nome": "O que é isso, companheiro?",
+                "Autor": "Fernando Gabeira", 
+                "Ano": 2016,
+                "Descricao": "documento histórico - esta seria a melhor maneira de classificar a narrativa que Fernando Gabeira empreende para nos contar, em primeira pessoa, como jovens guerrilheiros, em 1969, conseguiram realizar a mais espetacular proeza de um grupo de esquerda: o sequestro do embaixador americano. O então jornalista recém-saído do Jornal do Brasil e seus companheiros de organização ''trocaram'' a vida do embaixador pela libertação de 15 presos políticos "
+            },
+
+            {
+                "Nome": "Volto semana que vem",
+                "Autor": "Marilia Pilla", 
+                "Ano": 2015,
+                "Descricao": "''volto semana que vem” é o que a narradora deste livro responde ao pai ao sair de casa num dia de 1970, quando ele pergunta, espantado, aonde ela vai. “Mais de dez anos se passaram até eu voltar àquela cozinha”, conclui ela em seguida. Composto por recortes de memória, o livro é o retrato de uma vida brasileira exemplar: a de quem foi criança logo depois da Era Vargas (o dia do suicídio de Getúlio é uma das primeiras cenas evocadas aqui), cresceu nos tempos de Juscelino, foi jovem com a ditadura, militou com a esquerda, conheceu a prisão, a tortura e o exílio."
+            },
+
+
 
 
         ]

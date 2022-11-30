@@ -146,7 +146,9 @@ section {
   text-align: justify;
 }
 
-
+.books-brand {
+  font-size: 25px;
+}
 
 .hover-4 img {
   width: 110%;
