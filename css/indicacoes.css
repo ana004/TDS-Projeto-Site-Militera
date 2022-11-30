@@ -28,6 +28,9 @@
    font-size: 30px;
    font-weight: 500;
    margin-bottom: 40px;
+   text-transform:uppercase;
+   
+   text-shadow: 0.01em 0.01em 0.05em #333
  }
  
  .books-container {
