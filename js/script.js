@@ -184,7 +184,7 @@ if (document.body.classList.contains('mostrar-livro')) {
             //  Livros de pessoas que sofreram a ditadura - FILEIRA 2
 
             {
-                "Nome": "O Vôo da Arara Azul", // Posiçõ 10
+                "Nome": "O Voo da Arara Azul", // Posiçõ 10
                 "Autor": "Maria José Silveira", 
                 "Ano": 2011,
                 "Descricao": "A época é a ditadura militar no Brasil, em 1969. André tem 13 anos e é um adolescente inquieto e observador, que cria uma arara-azul em sua casa, em um bairro de classe média em São Paulo. Ele alimenta um amor platônico por Lia, uma mulher mais velha, engajada em questões políticas, que se muda para a casa ao lado."
