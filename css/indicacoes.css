@@ -201,3 +201,8 @@ section {
 .hover-4:hover .hover-overlay {
   background: rgba(0, 0, 0, 0.8);
 }
+
+.books-image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
