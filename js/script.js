@@ -35,7 +35,7 @@ if (document.body.classList.contains('contato')) {
     }
 
     function validarNome() {
-        if (campos[0].value.length < 3) {
+        if (campos[0].value.length < 3 || campos[0].value.length > 60 ) {
             isError = true;
             setError(0);
         } else {
@@ -55,7 +55,7 @@ if (document.body.classList.contains('contato')) {
     }
 
     function validarMensagem() {
-        if (campos[2].value.length < 30) {
+        if (campos[2].value.length < 30 || campos[2].value.length > 250) {
             isError = true;
             setError(2);
         } else {
